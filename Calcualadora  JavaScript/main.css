@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: crimson;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+.display{
+    height: 90px;
+    background: #344055;
+    display: grid;
+    border-radius: 50px;
+    grid-column: 1/-1;
+    margin: 65px 0 0 0;
+    text-align: end;
+}
+
+.valor-arriba{
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 5px 30px 0 0;
+}
+
+.valor-medio{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-right: 30px;
+}
+
+.valor-abajo{
+    color: #fff;
+    font-size: 1.6rem;
+    margin: -5px 30px 0 0;
+} 
+
+div.contenido{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: 130px repeat(6, 80px);
+    border: 1px solid #000;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    margin: 30px 0 20px 0;
+}
+
+button.botones,
+.ejecutor,
+#borrar,
+#eliminar,
+#igual{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 50px 10px 20px 0;
+}
+
+button.botones:hover,
+.ejecutor:hover,
+#borrar:hover,
+#eliminar:hover,
+#igual:hover{
+    background: midnightblue;
+    cursor: pointer;
+}
